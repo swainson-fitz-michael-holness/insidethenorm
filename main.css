@@ -1,3 +1,23 @@
 body {
     background-color: #120303;
 }
+
+.title {
+    max-width: 400px;
+    height: auto;
+    display: block;
+    margin: auto;
+    position: relative;
+}
+
+.image {
+    max-width: 800px;
+    display: block;
+    margin: auto;
+  top: -112px;
+  left: 12px;
+}
+
+.container {
+    position: relative;
+}
