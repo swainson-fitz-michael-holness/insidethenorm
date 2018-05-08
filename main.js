@@ -1,6 +1,6 @@
 function fx3dfollow() {
     var point = document.querySelector(".image");
-    var canvas = document.querySelector(".container");
+    var canvas = document.querySelector("body");
     canvas.onmousemove = function (e) {
         var delta = window.innerWidth / e.clientX;
         var omega = 0.002 / delta;
