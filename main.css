@@ -14,6 +14,7 @@ body {
 
 .image {
     max-width: 600px;
+    height: auto;
     display: block;
     margin: auto;
     top: -192px;
@@ -26,4 +27,15 @@ body {
     position: relative;
     height: auto;
     margin: none;
+    height: 100px;
+}
+
+.content {
+    color: aliceblue;
+    text-align: center;
+    position: relative;
+    top: -232px;
+    z-index: 4;
+/*    left: 560px;*/
+    display: block;
 }
