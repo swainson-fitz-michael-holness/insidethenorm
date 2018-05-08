@@ -9,6 +9,7 @@ body {
     margin: auto;
     position: relative;
     z-index: 2;
+    margin: none;
 }
 
 .image {
@@ -18,8 +19,11 @@ body {
     top: -192px;
     position: relative;
     z-index: 1;
+    margin: none;
 }
 
 .container {
     position: relative;
+    height: auto;
+    margin: none;
 }
