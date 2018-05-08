@@ -8,14 +8,16 @@ body {
     display: block;
     margin: auto;
     position: relative;
+    z-index: 2;
 }
 
 .image {
-    max-width: 800px;
+    max-width: 600px;
     display: block;
     margin: auto;
-  top: -112px;
-  left: 12px;
+    top: -192px;
+    position: relative;
+    z-index: 1;
 }
 
 .container {
