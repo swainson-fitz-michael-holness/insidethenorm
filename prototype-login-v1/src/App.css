@@ -1,0 +1,21 @@
+
+.login-box {
+    display: block;
+    width: 300px;
+    margin: auto;
+    margin-top: 25%;
+    padding: 30px;
+
+}
+
+.label {
+/*    font-size: 0.8em;   */
+}
+
+#password {
+    margin-top: 27px;
+}
+
+.login-btn {
+    margin-top: 27px;
+}
