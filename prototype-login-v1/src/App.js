@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 import $ from "jquery";
 import './App.css';
-import Login from './components/Login';
+
 import Home from './components/Home';
+import Login from './components/Login';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 import fire from './components/system/FireSys';
