@@ -14,7 +14,7 @@ class App extends Component {
     constructor(props){
         super(props);
         this.state = {
-            user: {},
+            user: null,
         }
     }
 
@@ -26,7 +26,7 @@ class App extends Component {
         fire.auth().onAuthStateChanged((user) => {
             if (user) {
                 // User is signed in.
-                this.setState({ user });
+                this.setState({ user: user });
                 console.log(user);
 //                localStorage.setItem('user', user.uid);
             } else {
