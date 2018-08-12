@@ -4,19 +4,10 @@ import '../App.css';
 import firebase from 'firebase';
 import { Link } from 'react-router-dom';
 
-firebase.auth().onAuthStateChanged(function(user) {
-    if (user) {
-        // User is signed in.
-        alert('working');
 
 
-    } else {
-        // No user is signed in.
-        alert('signed out')
-    }
-});
-
-const login = () => {
+const login = (e) => {
+    e.preventDefault();
     const userEmail = document.getElementById('user').value;
     const userPassword = document.getElementById('password').value;
 
@@ -46,7 +37,7 @@ class Login extends Component {
 
                 <div className="login-btn">
 
-                    <button  onClick={login} type="button" class="btn btn-block btn-primary">
+                    <button  onClick={login} type="button" className="btn btn-block btn-primary">
                         Submit
                     </button>
                 </div>
