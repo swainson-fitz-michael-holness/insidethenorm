@@ -4,24 +4,6 @@ import '../App.css';
 import firebase from 'firebase';
 import { Link } from 'react-router-dom';
 
-
-
-//const login = (e) => {
-//    e.preventDefault();
-//    const userEmail = document.getElementById('user').value;
-//    const userPassword = document.getElementById('password').value;
-//
-//    firebase.auth().signInWithEmailAndPassword(userEmail, userPassword).catch(function(error) {
-//        // Handle Errors here.
-//        const errorCode = error.code;
-//        const errorMessage = error.message;
-//
-//        alert(errorCode+' :: '+ errorMessage);
-//
-//        // ...
-//    });
-//}
-
 class Login extends Component {
     constructor(props){
         super(props)
